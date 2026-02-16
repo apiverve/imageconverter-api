@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/imageconverter",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.",
   "main": "index.js",
   "types": "index.d.ts",
