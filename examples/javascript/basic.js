@@ -9,14 +9,15 @@ const API_KEY = process.env.APIVERVE_API_KEY || 'YOUR_API_KEY_HERE';
 const API_URL = 'https://api.apiverve.com/v1/imageconverter';
 
 /**
- * Make a GET request to the Image Converter API
+ * Make a POST request to the Image Converter API
  */
 async function callImageConverterAPI() {
   try {
     const response = await fetch(API_URL, {
-      method: 'GET',
+      method: 'POST',
       headers: {
-        'x-api-key': API_KEY
+        'x-api-key': API_KEY,
+        'Content-Type': 'application/json'
       }
     });
 
