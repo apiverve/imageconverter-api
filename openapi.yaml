@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/imageconverter:
     post:
-      summary: Convert Image
+      summary: Image Converter
       description: >-
         Convert an image from one format to another. Upload an image file to
         convert.
@@ -81,8 +81,7 @@ paths:
                   outputSize: 1834567
                   mimeType: image/png
                   expires: 1707350400000
-                  downloadURL: >-
-                    https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png
+                  downloadURL: https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png
                 code: 200
         '401':
           description: Your request was not authorized, or your API Key was invalid
@@ -103,7 +102,7 @@ paths:
                   description: >-
                     File to upload (accepted: .heic, .heif, .avif, .webp, .png,
                     .jpg, .jpeg, .gif, .tiff, .tif, .bmp, .pdf, .svg, max 10MB)
-                  acceptedTypes:
+                  x-acceptedTypes:
                     - .heic
                     - .heif
                     - .avif
@@ -117,7 +116,7 @@ paths:
                     - .bmp
                     - .pdf
                     - .svg
-                  maxSizeMB: 10
+                  x-maxSizeMB: 10
               required:
                 - image
 components:
