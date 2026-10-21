@@ -1,7 +1,7 @@
 {
     "name": "apiverve/imageconverter",
     "description": "Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,7 +21,7 @@
         "heic to jpg",
         "webp to png"
     ],
-    "homepage": "https://apiverve.com/marketplace/imageconverter?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/imageconverter?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/imageconverter",

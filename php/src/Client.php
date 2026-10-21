@@ -15,11 +15,11 @@ use APIVerve\Imageconverter\Exceptions\ValidationException;
  * @example Basic usage
  * ```php
  * $client = new Client('your_api_key');
- * $response = $client->execute(['image' => '', 'outputFormat' => 'png', 'quality' => 90, 'maxWidth' => 1920, 'maxHeight' => 1080]);
+ * $response = $client->execute(['outputFormat' => 'png']);
  * print_r($response);
  * ```
  *
- * @see https://apiverve.com/marketplace/imageconverter?utm_source=php&utm_medium=readme
+ * @see https://apiverve.com/marketplace/imageconverter?utm_source=php&utm_medium=referral&utm_content=readme
  */
 class Client
 {
