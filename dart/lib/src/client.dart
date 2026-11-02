@@ -48,7 +48,7 @@ final _formatPatterns = {
 
 /// Image Converter API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/imageconverter?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/imageconverter?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [image] (required) - Upload an image file to convert (supported formats: HEIC, HEIF, AVIF, WebP, PNG, JPG, GIF, TIFF, BMP, PDF, SVG)
