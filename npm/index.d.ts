@@ -33,6 +33,8 @@ declare module '@apiverve/imageconverter' {
       mimeType:     null | string;
       expires:      number | null;
       downloadURL:  null | string;
+      outputWidth:  number | null;
+      outputHeight: number | null;
   }
 
   export default class imageconverterWrapper {
