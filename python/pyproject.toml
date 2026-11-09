@@ -1,10 +1,10 @@
 [project]
 name = "apiverve-imageconverter"
-version = "1.2.4"
+version = "1.2.5"
 authors = [
   { name="APIVerve", email="hello@apiverve.com" },
 ]
-description = "Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control."
+description = "Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control, and paid plans also get the pixel width and height of the converted file."
 keywords = ["image converter api", "convert image format", "heic to png", "heic to jpg", "webp to png"]
 readme = "README.md"
 requires-python = ">=3.9"

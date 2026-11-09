@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='apiverve_imageconverter',
-    version='1.2.4',
+    version='1.2.5',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'requests',
         'setuptools'
     ],
-    description='Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.',
+    description='Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control, and paid plans also get the pixel width and height of the converted file.',
     author='APIVerve',
     author_email='hello@apiverve.com',
     url='https://apiverve.com/marketplace/imageconverter?utm_source=pypi&utm_medium=referral&utm_content=homepage',
