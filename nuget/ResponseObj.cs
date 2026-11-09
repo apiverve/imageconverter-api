@@ -55,6 +55,12 @@ namespace APIVerve.API.ImageConverter
 
         [JsonProperty("downloadURL")]
         public Uri DownloadUrl { get; set; }
+
+        [JsonProperty("outputWidth")]
+        public long? OutputWidth { get; set; }
+
+        [JsonProperty("outputHeight")]
+        public long? OutputHeight { get; set; }
     }
 
     public partial class Premium
