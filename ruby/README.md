@@ -1,6 +1,6 @@
 # Image Converter API - Ruby Gem
 
-Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.
+Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control, and paid plans also get the pixel width and height of the converted file.
 
 ## Installation
 
@@ -95,7 +95,9 @@ client = APIVerve::Imageconverter::Client.new(
     "outputSize": 1834567,
     "mimeType": "image/png",
     "expires": 1707350400000,
-    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png"
+    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png",
+    "outputWidth": 1280,
+    "outputHeight": 960
   },
   "code": 200
 }
