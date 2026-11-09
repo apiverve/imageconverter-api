@@ -1,6 +1,6 @@
 # Image Converter API - Dart/Flutter Client
 
-Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.
+Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control, and paid plans also get the pixel width and height of the converted file.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_imageconverter.svg)](https://pub.dev/packages/apiverve_imageconverter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_imageconverter: ^1.2.4
+  apiverve_imageconverter: ^1.2.5
 ```
 
 Then run:
@@ -58,7 +58,9 @@ void main() async {
     "outputSize": 1834567,
     "mimeType": "image/png",
     "expires": 1707350400000,
-    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png"
+    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png",
+    "outputWidth": 1280,
+    "outputHeight": 960
   },
   "code": 200
 }

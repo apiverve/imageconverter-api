@@ -64,6 +64,8 @@ class ImageconverterData {
   String? mimeType;
   num? expires;
   String? downloadURL;
+  num? outputWidth;
+  num? outputHeight;
 
   ImageconverterData({
     this.id,
@@ -74,6 +76,8 @@ class ImageconverterData {
     this.mimeType,
     this.expires,
     this.downloadURL,
+    this.outputWidth,
+    this.outputHeight,
   });
 
   factory ImageconverterData.fromJson(Map<String, dynamic> json) => ImageconverterData(
@@ -85,6 +89,8 @@ class ImageconverterData {
       mimeType: json['mimeType'],
       expires: json['expires'],
       downloadURL: json['downloadURL'],
+      outputWidth: json['outputWidth'],
+      outputHeight: json['outputHeight'],
     );
 }
 
