@@ -4,7 +4,8 @@ info:
   description: >-
     Image Converter transforms images between formats. Convert HEIC from
     iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF.
-    Includes optional resizing and quality control.
+    Includes optional resizing and quality control, and paid plans also get the
+    pixel width and height of the converted file.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -22,7 +23,8 @@ paths:
       summary: Image Converter
       description: >-
         Convert an image from one format to another. Upload an image file to
-        convert.
+        convert. Paid plans also get the converted file's pixel width and height
+        (except for PDF output).
       operationId: imageconverter
       parameters:
         - name: outputFormat
@@ -82,6 +84,8 @@ paths:
                   mimeType: image/png
                   expires: 1707350400000
                   downloadURL: https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png
+                  outputWidth: 1280
+                  outputHeight: 960
                 code: 200
         '401':
           description: Your request was not authorized, or your API Key was invalid

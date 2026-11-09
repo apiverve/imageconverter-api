@@ -1,6 +1,6 @@
 # [Image Converter API](https://apiverve.com/marketplace/imageconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control.
+Image Converter transforms images between formats. Convert HEIC from iPhones, modern WebP and AVIF formats, or classic PNG, JPG, GIF, and TIFF. Includes optional resizing and quality control, and paid plans also get the pixel width and height of the converted file.
 
 The Image Converter API provides a simple, reliable way to integrate image converter functionality into your applications. Built for developers who need production-ready image converter capabilities without the complexity of building from scratch.
 
@@ -222,7 +222,9 @@ A real response from the Image Converter API:
     "outputSize": 1834567,
     "mimeType": "image/png",
     "expires": 1707350400000,
-    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png"
+    "downloadURL": "https://storage.googleapis.com/apiverve/imageconverter/a1b2c3d4.png",
+    "outputWidth": 1280,
+    "outputHeight": 960
   },
   "code": 200
 }
